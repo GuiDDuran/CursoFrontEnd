@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+
+        p{
+            background-color: #ccc;
+            margin-top: 0;
+           /* padding-top: 20px;
+            padding-left: 20px;
+            padding-bottom: 20px;
+            padding-right: 70px; 
+            padding: 20px 20px 20px 70px; Simplifica toda as declarações acima
+            text-align: justify; */
+        }
+
+        h1{
+            background-color: #df1212;
+            padding: 16px; /* O padding é a distância entre a borda interna da caixa, a vermelha, para o conteúdo */
+           /* margin: 40px; O margin é a distância entre a borda externa da caixa, verde, e o seu redor*/
+        }
+
+        h2{
+            background-color: #28c704;
+            margin-top: 56px;
+            border-bottom: 3px solid green;
+            /* width: 50%; Este valor é referente a largura do elemento pai, neste caso o body
+            height: 100px;
+            margin: 50px 0 0 100px; */
+        }
+
+        .destaque{
+            background-color: orange;
+        }
+
+        .size{
+            width: 50%;
+            height: 100px;
+        }
+
+        .padding{
+            padding: 26px;
+        }
+
+        .margin{
+            margin: 50px 0 20px 100px;
+        }
+
+        .border{
+            border-top: 10px solid blue;
+            border-right: 10px dotted rgb(17, 229, 66);
+            border-bottom: 10px dashed rgb(234, 7, 219);
+            border-left: 30px groove red;
+            /* border: 10px solid red; */
+            padding: 10px;
+        }
+
+        .border2{
+            border: 5px dashed blue;
+        }
+
+        .outline{
+            outline: 5px dashed red;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Box Model</h1>
+
+    <h2>Width e Height</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    Nobis, deserunt temporibus ratione deleniti soluta accusamus.</p>
+    <p class="destaque size">Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+
+    <h2>Padding</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    Nobis, deserunt temporibus ratione deleniti soluta accusamus.</p>
+    <p class="destaque padding">Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+
+    <h2>Margin</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    Nobis, deserunt temporibus ratione deleniti soluta accusamus.</p>
+    <p class="destaque margin">Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+
+    <h2>Border</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    Nobis, deserunt temporibus ratione deleniti soluta accusamus.</p>
+    <p class="destaque border">Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+
+    <h2>Outline</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    Nobis, deserunt temporibus ratione deleniti soluta accusamus.</p>
+    <p class="destaque outline">Lorem ipsum dolor sit amet.</p>
+    <p class="destaque border2">Lorem ipsum dolor sit amet.</p>
+    <p class="destaque border2 outline">Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    
+</body>
+</html>
