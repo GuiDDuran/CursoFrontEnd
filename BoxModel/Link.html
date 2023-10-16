@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link</title>
+    <style>
+        
+        body{
+            font-family: sans-serif;
+            color: red;
+        }
+
+        a{
+            display: inline-block;
+            padding: 3px;
+        }
+
+        a:link{ /* Altera somente os links que não foram acessados*/
+            color: red;
+        }
+
+        a:visited{ /* Altera somente os links que já foram acessados anteriormente*/
+            color: green;
+        }
+
+        a:hover{ /* Altera os links ao passar com o mouse em cima*/
+            background-color: #ccc;
+        }
+
+        a:active{
+            background-color: yellow; /* Altera os links no momento de ação (clique do mouse)*/
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Links</h1>
+
+    <a href="Display.html">Display</a> | <a href="BoxModel.html">Box Model</a> | <a href="aaa.html">Página inexistente</a>
+
+    <p>
+        Veja mais exemplos de Box Sizing aqui: <a href="Box_Sizing.html">Box Sizing</a>
+    </p>
+</body>
+</html>

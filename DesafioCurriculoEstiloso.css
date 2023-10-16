@@ -1,0 +1,47 @@
+body{
+    margin: 25px 70px 50px 70px;
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+    background-color: #008fd1;
+    color: #040485;
+}
+
+u{
+    color: #0000FF;
+}
+
+.descricao{
+    text-align: center;
+}
+
+h2{
+    background-color: #ccc;
+    color: #040485;
+    border-bottom: 3px solid #040485;
+    padding: 10px;
+}
+
+.lugar{
+    color: #040485;
+}
+
+ul {
+    padding-left: 0px;
+}
+
+li{
+    list-style-position: inside;
+}
+
+a{
+    text-decoration: none;
+    color: #040485;
+    font-weight: bold;
+}
+
+a:hover{
+    background-color: #ccc;
+}

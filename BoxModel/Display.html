@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <style>
+        body{
+            font-family: sans-serif ;
+        }
+
+        p{
+            width: 50%;
+            background-color: #ccc;
+        }
+
+        h1{
+            border: 2px solid red;
+        }
+
+        a{
+            background-color: yellow;
+            display: inline;
+            width: 200px; /* Elementos de linha não recebem propriedades do Bos Model*/
+            height: 500px;
+            margin: 50px;
+        }
+
+        strong{
+            padding: 25px;
+            background-color: #db1414;
+            display: inline-block; /* O conteúdo permanece como elemento de linha porém as alterações de bloco são aplicadas*/
+            height: 60px;
+            width: 50%;
+        }
+
+        b{
+            display: none; /* Remove o elemento do fluxo do documento*/
+        }
+
+        i{
+            visibility: hidden; /* O elemento não fica visível para o usuário mas sua área continua guardada */
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <h1>Box Sizing</h1>
+
+    <p>Lorem ipsum dolor sit, <a href="BoxModel.html">Box Model arquivo html</a>amet consectetur adipisicing elit. 
+        Quos dicta vitae id ducimus ad aliquam. 
+        Facere quis <b>texto em negrito com &lt;b&gt; </b>consequuntur consequatur consectetur in, nisi assumenda ab fugit nesciunt? 
+        Vitae iusto quas maxime veniam atque maiores totam autem cum rem! Maxime rem dicta enim adipisci quod quo, 
+        voluptatum quidem, <strong>texto em negrito com strong</strong> quam vitae itaque deleniti dignissimos fuga iste. 
+        Dolore suscipit sequi tempora, optio nemo consequuntur necessitatibus expedita 
+        dolor autem provident, <em>texto em itálico com em</em> eaque fugiat, distinctio blanditiis corporis. Enim illum assumenda unde voluptatem 
+        omnis illo pariatur suscipit? Voluptatibus odit autem excepturi iure reprehenderit sapiente distinctio modi, 
+        amet praesentium <i>texto itálico com i</i> saepe explicabo nesciunt laboriosam ipsam! 
+        Numquam minus iusto vel quaerat!
+    </p>
+
+</body>
+</html>
