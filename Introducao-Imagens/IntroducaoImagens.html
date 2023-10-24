@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução ás imagens</title>
+    <style>
+        body{
+            font-size: 22px;
+            font-family: sans-serif;
+            width: 700px;
+            margin:auto;
+
+            background-image: url(imagens/bg.jpg); /*Não colocar espaço entre a tag url e o ()*/
+            background-repeat: no-repeat; /*Não permite a repetição da imagem*/
+            background-attachment: fixed; /*Fixa o posicionamneto da imagem, fazendo com que ela não scrolle junto com a página*/
+            background-size: cover; /*Define o tamanho da imagem de fundo e a função cover preserva o conteúdo da imagem*/
+            background-position: right bottom; /*Fixa o posicionamneto da imagem, á direita e ao fundo da página*/
+        }
+
+        p{
+            line-height: 1.5;
+            text-align: justify;
+        }
+
+        .img-logo{
+            width: 400px;
+        }
+
+        .img-html{ /*Torna a imagem 'flutuante' permitindo que qualquer texto próximo, se encaixe ao redor da imagem */
+            float: left;
+        }
+
+        .img-css{
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com imagens</h1>
+
+    <h2>Imagens bitmap vc vetoriais</h2>
+    <p>Imagem bitmap</p>
+    <img src="imagens/logo_ser-frontend-ico.png" class="img-logo" alt="logotipo serfrontend .png">
+    <br>
+    <p>Imagem vetorial</p>
+    <img src="imagens/logo_ser-frontend-ico.svg" class="img-logo" alt="logotipo serfrontend .svg">
+
+    <h2>Imagens transparentes</h2>
+    <img src="imagens/logo_ser-frontend-ico-transparente.gif" alt="logotipo serfrontend .gif">
+    <br>
+    <img src="imagens/logo_ser-frontend-ico-transparente.png" alt="logotipo serfrontend .png">
+
+    <h2>Gif animado</h2>
+    <img src="imagens/walk.gif" alt="animação de mulher andando">
+
+    <h2>Float</h2>
+    <img src="imagens/html5.png" alt="logotipo HTML5" class="img-html">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quisquam asperiores soluta ab, 
+    blanditiis ex aut nemo iure nesciunt, fugit optio debitis aliquid suscipit at voluptas ipsum eveniet animi enim.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, fugit itaque. Architecto itaque veritatis laboriosam ipsa aspernatur recusandae dolores at pariatur distinctio, 
+    numquam minima quidem quibusdam aperiam quisquam fuga aliquid voluptatem vitae ex sequi vel dolorum eveniet hic ab amet. 
+    Ullam ipsum vel aliquam illum! Id eum nostrum consectetur quas fuga! Rerum voluptate odit expedita laboriosam, 
+    voluptatum sunt cumque optio animi temporibus voluptatem, accusamus quis alias laudantium blanditiis. 
+    Architecto soluta consequatur animi labore possimus ex maxime asperiores, esse voluptate voluptatum.</p>
+
+    <img src="imagens/css3.png" alt="logotipo CSS3" class="img-css">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quisquam asperiores soluta ab, 
+    blanditiis ex aut nemo iure nesciunt, fugit optio debitis aliquid suscipit at voluptas ipsum eveniet animi enim.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, fugit itaque. Architecto itaque veritatis laboriosam ipsa aspernatur recusandae dolores at pariatur distinctio, 
+    numquam minima quidem quibusdam aperiam quisquam fuga aliquid voluptatem vitae ex sequi vel dolorum eveniet hic ab amet. 
+    Ullam ipsum vel aliquam illum! Id eum nostrum consectetur quas fuga! Rerum voluptate odit expedita laboriosam, 
+    voluptatum sunt cumque optio animi temporibus voluptatem, accusamus quis alias laudantium blanditiis. 
+    Architecto soluta consequatur animi labore possimus ex maxime asperiores, esse voluptate voluptatum.</p>
+
+</body>
+</html>
