@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #ccc;
+}
+
+.hero{
+    background-image: url(../imagens/bg-3.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: right center;
+    padding-top: 1px;
+}
+
+.hero-content{
+    margin: 100px auto 0;
+    width: 80%;
+    text-align: center;
+    color: white;
+}
+
+.hero-content h1{
+    font-size: 50px;
+    text-shadow: 2px 2px 2px black; /*Responsável pela sombra atrás das letras*/
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.hero-content p{
+    background-color: rgba(0, 0, 0, 0.7); /*Responsável por tornar a cor de fundo "transparente"*/
+    font-size: 18px;
+    display: inline-block;
+    padding: 16px;
+    border-bottom: 2px solid;
+}
+
+.hero nav ul{
+    margin: 20px 50px 0 0;
+    text-align: right;
+}
+
+.hero nav li{
+    display: inline-block;
+    list-style-type: none;
+    border: 1px solid white;
+    margin-left: 10px;
+}
+
+.hero nav a{
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px; /*Responsável por dar um espaçamento entre as letras*/
+
+}
+
+.hero nav a:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+main{
+    width: 90%;
+    margin: auto;
+    max-width: 860px;
+}
+
+article{
+    background-color: white;
+    padding: 16px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+article h2{
+    background-color: #ccc;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin-top: 0;
+}
+
+.btn {
+    background-color: #cdc7c3;
+    display: block;
+    padding: 12px;
+    border-radius: 5px;
+    margin-left: auto;
+    width: fit-content;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.rodape{
+    color: white;
+    background-color: #5e5b5b;
+    padding: 16px;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 1px;
+}
